@@ -81,8 +81,8 @@ app.use(express.json())
 // })
 
 app.get('/hello', (req,res) => {
-    res.send('hello from first server')
+    res.send('hello from second server')
 })
-app.listen(8000, () => {
+app.listen(80, () => {
     console.log('server started')
 })
